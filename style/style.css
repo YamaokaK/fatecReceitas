@@ -1,0 +1,241 @@
+
+*{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: orange;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+
+.topnav a.active {
+    background-color: rgb(237, 161, 19);
+    color: #f6f6f6;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.checked {
+    color: orange;
+  }
+
+.headin, .head1{
+    background-color: orange;
+    margin-bottom: 30px;
+
+   
+}
+
+.head1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    -webkit-text-stroke: rgb(98, 22, 22);
+    text-shadow: black;
+}
+
+.introducao{
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+
+.icone__intro {
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+    padding: 10px 10px 2px, 2px;
+}
+
+.head__principal {
+    color: orange;
+    padding-top: 20px;
+}
+
+.bolinha {
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.estrelinha {
+    display: block;
+}
+
+.icone__intro__intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px ;
+    background-color: #f6f6f6;
+}
+
+.icone__comentario {
+    color: black;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f6f6f6;
+}
+
+.icone__imgs{
+    background-color: #f6f6f6;
+}
+
+.icone__valor {
+    color: orange;
+    font-weight: 600;
+    background-color: #f6f6f6;
+}
+
+.introducao__heading {
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    font-size: larger;
+    padding: 20px 20px 5px 20px;
+    
+}
+
+.head3 {
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+    margin: 10px 0;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.ingredientes__ {
+    padding-right: 15%;
+    padding-left: 15%;
+    
+}
+
+ul {
+    display: block;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-weight: 100;
+}
+
+.introducao_mid{
+    display: flex;
+    justify-content: center;
+    color: orange;
+    align-items: center;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.introducao__final{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.preparacao {
+    display: flex;
+    justify-content: center;
+    color: orange;
+    align-items: center;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+}
+
+ol li {
+    position: relative;
+    margin: 15px 0;
+    text-align: left;
+    color: black;
+    font-size: larger;
+    font-weight: 100;
+    font-style:normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comentario__intro {
+    display: flex;
+    justify-content: center;
+    color: orange;
+    align-items: center;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+textarea {
+    resize: none;
+ }
+
+form input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rodape{
+    color: #210c0c;
+    background-color: orange;
+    padding: 24px;
+    text-align: right;
+    border: #595959;
+    
+}
+
+.rodape a{
+    background-color: orange;
+    text-align: left;
+}

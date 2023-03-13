@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receita Fatec</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="headin">
+        <h1 class="head1">RECEITAS FATEC VOTORANTIM</h1>
+            <div class="topnav">
+                <a class="active" href="#inicio">Início</a>
+                <a href="#ingredientes">Ingredientes</a>
+                <a href="#preparo">Preparo</a>
+                <input type="text" placeholder="Pesquisa...">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="introducao" id="inicio">
+            <div class="introducao__heading">
+                <h1 class="head__principal">BOLINHA DE CHURROS</h1>
+                <div class="estrelinha">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <figure class="bolinha">
+                    <img src="./imgs/churros.png" width="570" height="324" alt="prato de churros em uma mesa">
+                </figure>
+               
+            </div>  
+            <div class="icone__intro">
+                <div class="icone__intro__intro">
+                    <img class="icone__imgs" src="./imgs/clock.png" width="24px" height="24px" alt="icone de um relogio"><br>
+                    <span class="icone__comentario">PREPARO</span><br>
+                    <span class="icone__valor">35 MIN</span>
+                </div>
+                <div class="icone__intro__intro">
+                    <img class="icone__imgs" src="./imgs/food-tray.png" width="24px" height="24px" alt="icone de um prato a ser servido"><br>
+                    <span class="icone__comentario">RENDIMENTO</span><br>
+                    <span class="icone__valor">8 PORÇÕES</span>
+                </div>
+                <div class="icone__intro__intro">
+                    <img class="icone__imgs" src="./imgs/like.png" width="24px" height="24px" alt="icone de um coração"><br>
+                    <span class="icone__comentario">FAVORITOS</span><br>
+                    <span class="icone__valor">1.420</span>
+                </div>
+                <div class="icone__intro__intro">
+                    <img class="icone__imgs" src="./imgs/commentary.png" width="24px" height="24px" alt="icone de um balão de conversa"><br>
+                    <span class="icone__comentario">COMENTÁRIOS</span><br>
+                    <span class="icone__valor">0</span>
+                </div>
+                <div class="icone__intro__intro">
+                    <img class="icone__imgs" src="./imgs/cooking.png" width="60px" height="60px" alt="icone de um chapeu de chef"><br>
+                    <span class="icone__valor">FATEC VOTORANTIM</span><br>
+                    <span class="icone__comentario">Membro desde 2023</span>
+                </div>
+            </div>
+        </section>
+        <section class="ingredientes__">
+            <div class="introducao_mid" id="ingredientes">
+                <img src="./imgs/apron.png" width="35px" height="35px" alt="imagem de um avental">
+                <h2>INGREDIENTES</h2>
+            </div>
+            <div>
+                <h3 class="head3">MASSA</h3>
+                <ul>
+                    <li>200 ml de água</li><br>
+                    <li>1 colher (sopa) de manteiga</li><br>
+                    <li>4 colheres (sopa) de açúcar</li><br>
+                    <li>1 colher (chá) de canela em pó</li><br>
+                    <li>1 xícara de farinha de trigo</li><br>
+                </ul>
+                <h3 class="head3">EMPANAMENTO</h3>
+                <ul>
+                    <li>1 colher (sopa) de canela</li><br>
+                    <li>1/2 xícara de açúcar</li><br>
+                </ul>
+                <h3 class="head3">RECHEIO</h3>
+                <ul>
+                    <li>150g de doce de leite</li>
+                </ul>
+            </div>
+        </section>
+        <section class="introducao__final">
+            <div class="preparacao" id="preparo">
+                <img src="imgs/pot.png" width="35px" height="35px" alt="icone de uma panela">
+                <h2>MODO DE PREPARO</h2>
+            </div>
+            <div>
+                <ol type="1">
+                    <li>Em uma panela, adicione a água, a manteiga, a canela e o açúcar</li>
+                    <li>Misture bem até o açúcar dissolver.</li>
+                    <li>Em seguida, adicione a farinha de trigo aos poucos</li>
+                    <li>Misture tudo com uma colher de pau até desgrudar da panela, se necessário, adicione água aos poucos para chegar no ponto.</li>
+                    <li>Retire da panela e sove até ficar uma massa homogênea.</li>
+                    <li>Faça bolinhas e, com o dedo, pressione fazendo um furo no meio.</li>
+                    <li>Frite submerso no óleo.</li>
+                    <li>Passe na mistura de açúcar e canela e coloque o recheio com ajuda de um saco de confeiteiro e um bico.</li>
+                </ol>
+            </div>
+        </section>
+        <section class="comentario__">
+            <div class="comentario__intro">
+                <img src="./imgs/commentary.png" width="35px" height="35px" alt="icone de um balão de conversa">
+                <h2>DEIXE SUA AVALIAÇÃO!</h2>
+            </div>
+            <div class="form">
+                <form>
+                    <label for="name">Nome:</label><br>
+                    <input type="text"><br>  
+                    <textarea name="comentario" id="commentary" cols="60" rows="18"></textarea><br>
+                    <input type="submit" value="submit"><br>
+                   
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p class="rodape">Desenvolvido por Gabriel Yamaoka</p>
+        <a href="#inicio">Retornar ao topo</a>
+    </footer>
+</body>
+</html>
